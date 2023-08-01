@@ -9,6 +9,6 @@ def image_to_text(image_path):
     return text
 
 if __name__ == "__main__":
-    image_path = "images/Capture2.PNG"
+    image_path = "latex_image.png"
     extracted_text = image_to_text(image_path)
     print(extracted_text)
